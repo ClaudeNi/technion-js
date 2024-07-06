@@ -4,6 +4,41 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="../style/classes.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1 class="title">EX1 DOM#1</h1>
+      <div class="container">
+        <h2 class="sub">Ex1.</h2>
+        <p id="ex1" class="text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure quam
+          porro voluptate consectetur. Corporis, quod.
+        </p>
+        <input id="class-input" type="text" />
+        <button onclick="addClass()">Add class</button>
+      </div>
+      <h2 class="center">==================================</h2>
+      <div class="container">
+        <h2 class="sub">EX2.</h2>
+        <p class="text visible" id="first">This is the first paragraph</p>
+        <p class="text visible" id="second">This is the second paragraph</p>
+        <p class="text visible" id="third">This is the third paragraph</p>
+        <button onclick="toggleVisibility('first')">Toggle first</button>
+        <button onclick="toggleVisibility('second')">Toggle second</button>
+        <button onclick="toggleVisibility('third')">Toggle third</button>
+      </div>
+      <h2 class="center">==================================</h2>
+      <div class="container">
+        <h2 class="sub">EX3.</h2>
+        <button class="btn default" onclick="clickButton(this)">
+          Click me!
+        </button>
+      </div>
+      <h2 class="center">==================================</h2>
+      <a href="../index.html" class="link"> return to main</a>
+    </main>
+  </body>
+  <script src="../script/classes.js"></script>
 </html>
