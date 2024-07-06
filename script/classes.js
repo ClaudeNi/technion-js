@@ -13,5 +13,5 @@ function toggleVisibility(elemID) {
 function clickButton(btn) {
   btn.classList.remove("default");
   btn.classList.add("clicked");
-  btn.text = "Clicked!";
+  btn.textContent = "Clicked!";
 }
